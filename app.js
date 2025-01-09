@@ -4,7 +4,7 @@ for (let i = 0; i < 13; i++) {
     soma+=i
 }
 
-console.log(soma) // soma = 78
+console.log(soma)
 
 // 2 questão
 function verificaFibonacci(numero) {
@@ -31,10 +31,7 @@ function verificaFibonacci(numero) {
   }
   
 const numero = 13
-console.log(verificaFibonacci(numero)) // O número 13 pertence à sequência de Fibonacci.
-
-
-
+console.log(verificaFibonacci(numero))
 
 // 3 questão
 const faturamentoDiario = [
@@ -103,10 +100,8 @@ for (const estado in percentuais) {
 
 // 5 questão
 function inverteString(texto) {
-    // Inicializa uma variável para armazenar o texto invertido
     let textoInvertido = "";
   
-    // Percorre a string de trás para frente
     for (let i = texto.length - 1; i >= 0; i--) {
       textoInvertido += texto[i];
     }
